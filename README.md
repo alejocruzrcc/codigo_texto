@@ -1,7 +1,7 @@
-#### Bienvenido a la fuente SIVeL ####
-Sistema de Información de Violencia Política en Línea versión 2
-
 # SIVeL 2 #
+
+## Bienvenido a la fuente SIVeL ##
+Sistema de Información de Violencia Política en Línea versión 2
 
 [![Estado Construcción](https://api.travis-ci.org/pasosdeJesus/sivel2.svg?branch=master)](https://travis-ci.org/pasosdeJesus/sivel2) [![Clima del Código](https://codeclimate.com/github/pasosdeJesus/sivel2/badges/gpa.svg)](https://codeclimate.com/github/pasosdeJesus/sivel2) [![Cobertura de Pruebas](https://codeclimate.com/github/pasosdeJesus/sivel2/badges/coverage.svg)](https://codeclimate.com/github/pasosdeJesus/sivel2) [![security](https://hakiri.io/github/pasosdeJesus/sivel2/master.svg)](https://hakiri.io/github/pasosdeJesus/sivel2/master) [![Dependencias](https://gemnasium.com/pasosdeJesus/sivel2.svg)](https://gemnasium.com/pasosdeJesus/sivel2) 
 
@@ -21,7 +21,7 @@ Es una aplicación que emplea los motores genéricos.
 y  [sip](https://github.com/pasosdeJesus/sip)
 
 
-### Configuración y uso de servidor de desarrollo
+### Configuración y uso de servidor de desarrollo 🔧
 
 Cree un usuario para PostgreSQL como se explica en 
 <https://github.com/pasosdeJesus/sip/wiki/Aplicaci%C3%B3n-de-prueba>
@@ -90,7 +90,7 @@ kill 323122
 rm -rf public/assets/*
 ```
 
-### Pruebas
+### Pruebas ⚙️
 
 Dado que se hacen pruebas a modelos, rutas, controladores y vistas en 
 ```sivel2_gen```, en ```sivel2``` sólo se implementan algunas pruebas 
@@ -103,12 +103,12 @@ RAILS_ENV=test bundle exec rake sip:indices
 bundle exec rails test
 ```
 
-### Desarrollo en codio.com
+### Desarrollo en codio.com ⌨️
 
 Opera bien excepto por la lentitud (aunque es más rápido que otros sitios
 de desarrollo) y porque no puede usarse ```capybara-webkit```. 
 
-### Despliegue de prueba en Heroku
+### Despliegue de prueba en Heroku ⌨️
 
 [![heroku](https://www.herokucdn.com/deploy/button.svg)](http://sivel2.herokuapp.com) 
 
@@ -138,7 +138,7 @@ Otras labores tipicas son:
   base de datos (cuyo nombre se ve con ```heroku config```):  
   ```heroku pg:reset nombrebase```
 
-### Medición de tiempos
+### Medición de tiempos :hourglass_flowing_sand:
 
 En el archivo TIEMPO.md se han consignado algunas mediciones de tiempo de 
 respuesta medidos con el inspector del navegador Chrome (una vez en la página 
